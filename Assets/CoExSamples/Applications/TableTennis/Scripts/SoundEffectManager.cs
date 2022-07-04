@@ -16,7 +16,10 @@ namespace TableTennis
     
         private void OnCollisionEnter(Collision collision)
         {
-            collision.gameObject.GetComponent<IPlayable>().PlaySoundEffect();
+            if (collision.gameObject.GetComponent<IPlayable>() != null)
+            {
+                collision.gameObject.GetComponent<IPlayable>().PlaySoundEffect();
+            }
         }
     }
 }
