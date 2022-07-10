@@ -20,7 +20,9 @@ namespace TableTennis
         
         // 発射するボールの速度
         [SerializeField] private float _speed;
-        // Start is called before the first frame update
+
+        private float _currentTime;
+        [SerializeField] private float _timeSpan;
         void Start()
         {
             _launchPoint = _launchPointObject.GetComponent<Transform>().position;
@@ -34,6 +36,21 @@ namespace TableTennis
             {
                 BallFiring();
             }
+
+            TimeSpanManagement();
+        }
+
+        // 任意の時間感覚でボールを供給する処理
+        private void TimeSpanManagement()
+        {
+            _currentTime += Time.deltaTime;
+            
+            if (_currentTime > _timeSpan)
+            {
+                _currentTime = 0;
+                BallFiring();
+            }
+            
         }
 
         private void BallFiring()
