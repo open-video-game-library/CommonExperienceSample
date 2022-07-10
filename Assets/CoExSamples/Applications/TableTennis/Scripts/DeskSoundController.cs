@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using TableTennis;
 using UnityEngine;
 
-public class DeskSoundController : MonoBehaviour , SoundEffectManager.IPlayable
+namespace TableTennis
 {
-    [SerializeField] private AudioSource _audioSource;
-    
-    public void PlaySoundEffect()
+    public class DeskSoundController : MonoBehaviour, SoundEffectManager.IPlayable
     {
-        _audioSource.Play();
+        [SerializeField] private AudioSource _audioSource;
+
+        public void PlaySoundEffect()
+        {
+            _audioSource.Play();
+        }
     }
 }

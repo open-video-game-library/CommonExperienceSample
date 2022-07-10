@@ -57,7 +57,7 @@ namespace TableTennis
         {
             GameObject ball = Instantiate(_providedBall, _launchPoint, Quaternion.identity);
             Rigidbody ballRB = ball.GetComponent<Rigidbody>();
-            _ballDirection.x = Random.Range(-0.25f, 0.25f);
+            _ballDirection.x = Random.Range(-0.1f, 0.1f);
             _ballDirection.y = _ballDirection.y;
             _ballDirection.z = _ballDirection.z;
             _ballDirection = _ballDirection.normalized;
