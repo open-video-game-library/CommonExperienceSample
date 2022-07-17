@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/BasicGrab.unity
     guid: 13bd76582a631124699f410c1e007f8c
-  - enabled: 1
+  - enabled: 0
     path: Assets/CoExSamples/Applications/TableTennis/Scenes/TableTennis.unity
     guid: c0aa47ea7d3d24e83a0b3c52f1601651
+  - enabled: 1
+    path: Assets/CoExSamples/Applications/TableTennis/Scenes/TableTennis_Attachment.unity
+    guid: 187c9004fcf9b42c69f5b9dcafecf90d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c7d4fd90a015c4ba59c4d9bad913a31c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4d14da610684c40af9bb97bf29c8323d, type: 2}
