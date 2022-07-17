@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Racket
   - Target
+  - Target_Yellow
+  - Target_Red
+  - Target_Blue
+  - Target_Black
+  - Target_White
   layers:
   - Default
   - TransparentFX
