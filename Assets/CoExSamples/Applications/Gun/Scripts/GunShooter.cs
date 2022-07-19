@@ -32,13 +32,15 @@ namespace GunGame
         // Update is called once per frame
         void Update()
         {
+            Debug.DrawRay(_muzzle.transform.position, _muzzle.transform.forward * 1000, Color.blue);
+
             #if UNITY_EDITOR
             if(Input.GetKeyDown(KeyCode.A))  
             {
                 Fire();
             }
             #elif UNITY_ANDROID
-            if(OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))  
+            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))  
             {
                 Fire();
             }
