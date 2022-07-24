@@ -752,6 +752,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 2468446828101734977, guid: 6075170c2a4394f0ab1274da4c6f1bb2, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3460736267991916675, guid: 6075170c2a4394f0ab1274da4c6f1bb2, type: 3}
       propertyPath: m_Name
       value: ScoreCanvas
