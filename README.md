@@ -14,7 +14,8 @@ https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-
  
  ### Selection
 Common experience sampleは、触覚ディスプレイがフィードバックする6次元のものの特性にマッピングしたサンプルを提供します。
-![SixDemensionsBlack](https://user-images.githubusercontent.com/71160720/186411493-99b820c5-5cf2-4eb6-9764-29bea883460a.png)
+<img width="612" alt="SIxDemensionsMapping" src="https://user-images.githubusercontent.com/71160720/186413239-ccab8c4f-cfda-4e6d-8019-2a0ac9c51fb2.png">
+
 
 既存の触覚ディスプレイをサーベイした結果を反映しているため、頻出シーンを利用できます。
 
