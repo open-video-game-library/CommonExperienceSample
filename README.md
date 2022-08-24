@@ -1,6 +1,6 @@
-# Common experience sample
+# Common experience sample(共通体験サンプル）
 
-Common experience sample(共通体験サンプル）は、触覚ディスプレイを比較・評価するための、オープンな体験サンプルです。
+Common experience sample(共通体験サンプル）は、触覚ディスプレイを評価するための、オープンな体験サンプルです。触覚ディスプレイを用いて、掴む、持つ、かざすといった基本動作を調整・体験できます。触覚ディスプレイがフィードバックする6次元のものの特性(質感、硬さ、温度、重さ、形状、動き）ごとに、既存研究にて利用頻度の高いサンプルを選定しています。触覚ディスプレイの標準評価刺激となることを目指しており、ディスプレイ間の比較促進を目的としています。
  
 # DEMO
  
@@ -11,13 +11,6 @@ https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-
 
  
 # Features
- 
- ### Selection
-Common experience sampleは、触覚ディスプレイがフィードバックする6次元のものの特性にマッピングしたサンプルを提供します。
-<img width="612" alt="SIxDemensionsMapping" src="https://user-images.githubusercontent.com/71160720/186413239-ccab8c4f-cfda-4e6d-8019-2a0ac9c51fb2.png">
-
-
-既存の触覚ディスプレイをサーベイした結果を反映しているため、頻出シーンを利用できます。
 
 ### Parameters adjustment
 サンプル内で調整ニーズの高い各種パラメータをGUI上で容易に調整することができます。
