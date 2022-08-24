@@ -1,4 +1,4 @@
-# CoExperienceSamples
+# Common experience sample
 
 分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
  
@@ -6,7 +6,11 @@
  
 # DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+
+https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-95b8-366332fc7501.mp4
+
+
+
  
 # Features
  
