@@ -1,8 +1,6 @@
 # Common experience sample
 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
- 
-"hoge"が何かを簡潔に紹介する
+Common experience sample(共通体験サンプル）は、触覚ディスプレイを比較・評価するための、オープンな体験サンプルです。
  
 # DEMO
  
