@@ -12,11 +12,13 @@ https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-
  
 # Features
 
-### Parameters adjustment
-サンプル内で調整ニーズの高い各種パラメータをGUI上で容易に調整することができます。
+### Parameters adjustment and reproduction
+サンプル内で調整ニーズの高い各種パラメータをGUI上で容易に調整することができます。さらに、調整されたパラメータ情報を書き出し、読み込むことで差分を反映させることができます。これにより、他研究者のパラメータ情報を反映させ、実験条件を統一させることもできます。
 
-### Parameters reproduction
-調整されたパラメータ情報を書き出し、読み込むことで差分を反映させることができます。これにより、他研究者のパラメータ情報を反映させ、実験条件を統一させることもできます。
+
+https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-98e5-c1e7213b05b5.mov
+
+
 
 
 # Requirement
