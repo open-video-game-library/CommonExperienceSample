@@ -35,23 +35,13 @@ namespace GunGame
         void Update()
         {
             Debug.DrawRay(_muzzle.transform.position, _muzzle.transform.forward * 1000, Color.blue);
-
-<<<<<<< HEAD
+            
             #if UNITY_ANDROID
-            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))  
-=======
-            #if UNITY_EDITOR
-            if(Input.GetKeyDown(KeyCode.A))  
->>>>>>> e73b9db4b18615cb4891c2408e6060847d557552
+            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
             {
                 Fire(OVRInput.Controller.RTouch);
             }
-<<<<<<< HEAD
             else if(OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.LTouch))
-=======
-            #elif UNITY_ANDROID
-            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))  
->>>>>>> e73b9db4b18615cb4891c2408e6060847d557552
             {
                 Fire(OVRInput.Controller.LTouch);
             }
