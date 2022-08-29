@@ -23,9 +23,7 @@ https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-
 
 # Requirement
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
+* Unity 2021.3.4f1
 * hogehuga 1.0.2
  
 # Installation
