@@ -1,13 +1,12 @@
 # 共通体験サンプル(Common experience sample)
 
-共通体験サンプル(Common experience sample)は、触覚ディスプレイを評価するための、オープンな体験サンプルです。触覚ディスプレイを用いて、掴む、持つ、かざすといった基本動作を調整・体験できます。触覚ディスプレイがフィードバックする6次元のものの特性(質感、硬さ、温度、重さ、形状、動き）ごとに、既存研究にて利用頻度の高いサンプルを選定しています。触覚ディスプレイの標準評価刺激となることを目指しており、ディスプレイ間の比較促進を目的としています。
- 
-# DEMO
+共通体験サンプル(Common experience sample)は、触覚ディスプレイを評価するための、オープンな体験サンプルです。触覚ディスプレイを用いて、掴む、持つ、かざすといった基本動作を調整・体験できます。触覚ディスプレイがフィードバックする6次元のものの特性(質感、硬さ、温度、重さ、形状、動き）ごとに、既存研究にて利用頻度の高いサンプルを利用できます。また、共通体験サンプルは触覚ディスプレイの標準評価刺激となることを目指しており、ディスプレイ間の比較促進を目的としています。
+
  
 
 https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-95b8-366332fc7501.mp4
 
-
+詳細なデモ動画は[こちら](https://youtu.be/rpPS4GljZfw)
 
  
 # Features
@@ -29,12 +28,12 @@ https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-
  
 # Installation
  
-以下のリンクからUnityをインストールする。
-https://unity3d.com/jp/get-unity/download/archive
+[こちら](https://unity3d.com/jp/get-unity/download/archive)からUnityのインストールができます。
+
  
 # Usage
  
-本リポジトリを下記コマンドでローカル環境にクローンする。
+本リポジトリを下記コマンドでローカル環境にクローンしてください。
 
 ```bash
 git clone git@github.com:open-video-game-library/CoExperienceSamples.git
@@ -42,6 +41,8 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
  
 # Note
+
+共通体験サンプルは、研究者のためのゲームサンプルを作成する[Open Video Game Libraryプロジェクト](https://open-video-game-library.github.io/info/)の取り組みの一つです。そのため、共通体験サンプルを利用する際は、以下のOpen Video Game Library利用時の注意事項を守ってください。
  
 * Open Video Game Library からダウンロードしたものを、自身が開発したものと偽って公開する行為はご遠慮下さい。
 
@@ -63,4 +64,4 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
  
 
 # Contact
-意見や要望、質問などがありましたら、[https://open-video-game-library.github.io/info/contact/](こちら)からお問い合わせ下さい。
+意見や要望、質問などがありましたら、[こちら](https://open-video-game-library.github.io/info/contact/)からお問い合わせ下さい。
