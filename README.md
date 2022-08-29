@@ -24,25 +24,22 @@ https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-
 # Requirement
  
 * Unity 2021.3.4f1
-* hogehuga 1.0.2
+* Oculus XR Plugin 3.0.2
+* XR Plugin Management 4.2.1
  
 # Installation
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
+以下のリンクからUnityをインストールする。
+https://unity3d.com/jp/get-unity/download/archive
  
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
+本リポジトリを下記コマンドでローカル環境にクローンする。
+
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ```
+
  
 # Note
  
