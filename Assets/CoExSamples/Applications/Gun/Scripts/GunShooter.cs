@@ -23,6 +23,8 @@ namespace GunGame
         [SerializeField] private AudioSource _hitTargetSound;
 
         private Animation _shootAnimation;
+
+        private bool _isDefaultVibration;
         // Start is called before the first frame update
         void Start()
         {
@@ -34,21 +36,29 @@ namespace GunGame
         {
             Debug.DrawRay(_muzzle.transform.position, _muzzle.transform.forward * 1000, Color.blue);
 
-            #if UNITY_EDITOR
-            if(Input.GetKeyDown(KeyCode.A))  
+            #if UNITY_ANDROID
+            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))  
             {
-                Fire();
+                Fire(OVRInput.Controller.RTouch);
             }
-            #elif UNITY_ANDROID
-            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))  
+            else if(OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.LTouch))
             {
-                Fire();
+                Fire(OVRInput.Controller.LTouch);
             }
             #endif
+            
+            
+            // モードチェンジ
+            if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
+            {
+                if (_isDefaultVibration) _isDefaultVibration = false;
+                else if (!_isDefaultVibration) _isDefaultVibration = true;
+            }
         }
 
-        private void Fire()
+        private void Fire(OVRInput.Controller controller)
         {
+            if(_isDefaultVibration) StartCoroutine(Vibrate(0.1f, 0.1f, 1f, controller));
             _shootSound.Play();
             _shootAnimation.Play();
             RaycastHit hit;
@@ -107,6 +117,17 @@ namespace GunGame
         {
             yield return new WaitForSeconds(3.5f);
             _scoreText.text = "";
+        }
+        
+        private IEnumerator Vibrate(float duration, float frequency, float amplitude, OVRInput.Controller controller) {
+            //コントローラーを振動させる
+            OVRInput.SetControllerVibration(frequency, amplitude, controller);
+
+            //指定された時間待つ
+            yield return new WaitForSeconds(duration);
+
+            //コントローラーの振動を止める
+            OVRInput.SetControllerVibration(0, 0, controller);
         }
     }
 }
