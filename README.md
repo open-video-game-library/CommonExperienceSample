@@ -63,8 +63,16 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 5. 共通体験サンプルを研究で利用する場合は、ご自身の論文内で以下の論文を引用して下さい。
 
-[触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討](https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf)
-
+- [触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討](https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf)
+```
+@conference{岡:2022, 
+   author	 = "岡,拓也 and 森本,浩輔 and 簗瀬,洋平 and 渡邊,恵太",
+   title	 = "触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討"
+   booktitle	 = "第27回日本バーチャルリアリティ学会大会論文集",
+   year		 = "2022",
+   month	 = ""
+}
+```
 
 ## Note
 
