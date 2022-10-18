@@ -71,7 +71,7 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
    booktitle	 = "第27回日本バーチャルリアリティ学会大会論文集",
    institution	= "明治大学大学院先端数理科学研究科先端メディアサイエンス専攻, 明治大学総合数理学部先端メディアサイエンス学科, ユニティ・テクノロジーズ・ジャパン株式会社, 明治大学総合数理学部先端メディアサイエンス学科",
    year		 = "2022",
-   month	 = ""
+   month	 = "sep"
 }
 ```
 
