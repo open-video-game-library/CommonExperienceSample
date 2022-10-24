@@ -9,7 +9,7 @@ Common experience sample is an open experience sample for evaluating tactile dis
 
 https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-95b8-366332fc7501.mp4
 
-[Click here for a detailed demo video.](https://youtu.be/rpPS4GljZfw)
+[Click here for a detailed demo video.](https://www.youtube.com/watch?v=3QshPIVFACQ)
 
 
 
