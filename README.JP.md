@@ -7,7 +7,7 @@
 
 https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-95b8-366332fc7501.mp4
 
-詳細なデモ動画は[こちら](https://youtu.be/rpPS4GljZfw)
+詳細なデモ動画は[こちら](https://www.youtube.com/watch?v=3QshPIVFACQ)
 
 
 
