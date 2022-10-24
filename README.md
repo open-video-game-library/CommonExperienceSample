@@ -4,13 +4,12 @@
 [日本語版README](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/README.JP.md)
 
 
-共通体験サンプル(Common experience sample)は、触覚ディスプレイを評価するための、オープンな体験サンプルです。触覚ディスプレイを用いて、掴む、持つ、かざすといった基本動作を調整・体験できます。触覚ディスプレイがフィードバックする6次元のものの特性(質感、硬さ、温度、重さ、形状、動き）ごとに、既存研究にて利用頻度の高いサンプルを利用できます。また、共通体験サンプルは触覚ディスプレイの標準評価刺激となることを目指しており、ディスプレイ間の比較促進を目的としています。
-
+Common experience sample is an open experience sample for evaluating tactile displays. You can adjust and experience basic actions such as grasping, holding, and holding the display. For each of the six dimensional object characteristics (texture, hardness, temperature, weight, shape, and motion) that the tactile display provides feedback on, samples that are frequently used in existing research can be used. The common experience sample is intended to be a standard evaluation stimulus for tactile displays and to promote comparison between displays.
  
 
 https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-95b8-366332fc7501.mp4
 
-詳細なデモ動画は[こちら](https://youtu.be/rpPS4GljZfw)
+[Click here for a detailed demo video.](https://youtu.be/rpPS4GljZfw)
 
 
 
@@ -18,9 +17,9 @@ https://user-images.githubusercontent.com/71160720/186408669-96bc2ad9-e50c-4c37-
 
 
 
-#### パラメータ調整・出力機能
+#### Parameter adjustment and output function
 	
-サンプル内で調整ニーズの高い各種パラメータをGUI上で容易に調整することができます。さらに、調整されたパラメータ情報を書き出し、読み込むことで差分を反映させることができます。これにより、他研究者のパラメータ情報を反映させ、実験条件を統一させることもできます。
+Various parameters that are in high demand for adjustment in the sample can be easily adjusted on the GUI. In addition, the adjusted parameter information can be exported and read to reflect the differences. This allows you to reflect the parameter information of other researchers and unify the experimental conditions.
 
 
 https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-98e5-c1e7213b05b5.mov		
@@ -28,11 +27,11 @@ https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-
 
 		
 
-### 研究利用例
+### Examples of Use
 
 
-1. 共通体験サンプルを用いて開発した触覚ディスプレイの評価実験をする。
-2. 学会のデモ発表にて共通体験サンプルを用いる。
+1. Conduct an evaluation experiment of the tactile display developed using the common experience sample.
+2. Use common experience samples in conference demonstration presentations.
 
 ## Requirement
 
@@ -42,11 +41,11 @@ https://user-images.githubusercontent.com/71160720/186425256-223169bc-e52f-4aaf-
 
 ## Installation
 
-[こちら](https://unity3d.com/jp/get-unity/download/archive)からUnityのインストールができます。
+[You can install any version of Unity here.](https://unity3d.com/jp/get-unity/download/archive)
 
 ## Usage
 
-本リポジトリを下記コマンドでローカル環境にクローンしてご利用ください。
+Please clone this repository to your local environment using the following command.
 
 ```bash
 git clone git@github.com:open-video-game-library/CoExperienceSamples.git
@@ -55,15 +54,15 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 ## Licence
 
-1. 共通体験サンプルは無料でご利用できます。
+1. Common experience samples are available free of charge.
 
-2. 営利目的・公序良俗に反する目的でない限り、研究目的での利用を含め、あらゆる用途で利用できます。
+2. You may use the library for any purpose, including research purposes, as long as it is not for commercial purposes or against public order and morals.
 
-3. ダウンロードしたデータを改変し、ご利用いただいても構いません。
+3. You may modify and use the downloaded data.
 
-4. 利用報告をする必要はありませんが、改変したデータを二次配布する場合を含め、共通体験サンプルを利用した場合は、その旨を明記して下さい。
+4. You are not required to report the use of the data, but please indicate if you have used the common experience sample, including secondary distribution of modified data.
 
-5. 共通体験サンプルを研究で利用する場合は、ご自身の論文内で以下の論文を引用して下さい。
+5. If you wish to use the Common Experience sample in your research, please cite the following article within your own paper.
 
 - [触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討](https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf)
 ```
@@ -79,16 +78,15 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 ## Note
 
--  共通体験サンプルからダウンロードしたものを、自身が開発したものと偽って公開する行為はご遠慮下さい。
+-  Please refrain from publishing any material downloaded from the common experience sample under the false pretense that it was developed by you.
 
--  共通体験サンプルを利用したことによるトラブル/損害が発生した場合、一切の責任を負いません。
+-  We are not responsible for any trouble/damage caused by the use of the common experience sample.
 
--  共通体験サンプルのコンテンツや利用規約は、予告なしに変更される場合があります。
+-  The content and terms of use of the Common Experience Samples are subject to change without notice.
 
--  共通体験サンプルではゲーム内のパラメータを変更できますが、研究の公平性や再現性を保つために、設定したパラメータの値を明示するようにしてください。
+-  The Common Experience sample allows you to change the parameters in the game, but please be sure to clearly state the values of the parameters you set in order to keep the study fair and reproducible.
 
 ## Contact
 
-意見や要望、質問などがありましたら、[こちら](https://open-video-game-library.github.io/info/contact/)からお問い合わせ下さい。
-
+[If you have any comments, requests or questions, please contact us here.](https://open-video-game-library.github.io/info/contact/)
 
