@@ -1,5 +1,6 @@
 # 共通体験サンプル(Common experience sample)
 
+[English version README](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/README.md)
 
 共通体験サンプル(Common experience sample)は、触覚ディスプレイを評価するための、オープンな体験サンプルです。触覚ディスプレイを用いて、掴む、持つ、かざすといった基本動作を調整・体験できます。触覚ディスプレイがフィードバックする6次元のものの特性(質感、硬さ、温度、重さ、形状、動き）ごとに、既存研究にて利用頻度の高いサンプルを利用できます。また、共通体験サンプルは触覚ディスプレイの標準評価刺激となることを目指しており、ディスプレイ間の比較促進を目的としています。
 
