@@ -11,14 +11,17 @@ TagManager:
   - Target_Blue
   - Target_Black
   - Target_White
+  - LeftHand
+  - RightHand
+  - Bow
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bow
   - Water
   - UI
-  - 
+  - Arrow
   - 
   - 
   - 
