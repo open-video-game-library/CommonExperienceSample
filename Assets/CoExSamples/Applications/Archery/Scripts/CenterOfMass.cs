@@ -1,24 +1,25 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Serialization;
 
 public class CenterOfMass : MonoBehaviour {
 
-    public Vector3 center = new Vector3(0f, 0f, 5f);
+    [FormerlySerializedAs("center")] public Vector3 Center = new Vector3(0f, 0f, 5f);
 
-    private Rigidbody rb;
+    private Rigidbody _rb;
 
-    void Start () {
-        rb = GetComponent<Rigidbody> ();
-        rb.centerOfMass = center;
+    private void Start () {
+        _rb = GetComponent<Rigidbody> ();
+        _rb.centerOfMass = Center;
     }
 
-    void Update () {
-        Debug.DrawLine (transform.position , transform.position + transform.rotation * center);
+    private void Update () {
+        Debug.DrawLine (transform.position , transform.position + transform.rotation * Center);
     }
 
-    void OnDrawGizmos(){
+    private void OnDrawGizmos(){
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere (transform.position + transform.rotation * center, 0.1f);
+        Gizmos.DrawSphere (transform.position + transform.rotation * Center, 0.1f);
     }
 
 }

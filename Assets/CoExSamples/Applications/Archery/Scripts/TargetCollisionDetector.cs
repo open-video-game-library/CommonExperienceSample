@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Archery
 {
-    public class TriggerObserver : MonoBehaviour
+    public class TargetCollisionDetector : MonoBehaviour
     {
         private CapsuleCollider _collider;
 
@@ -26,7 +26,7 @@ namespace Archery
         private const string _targetTag = "Target";
 
         // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             _collider = gameObject.GetComponent<CapsuleCollider>();
             _scoreText = GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>();
@@ -86,7 +86,9 @@ namespace Archery
             }
             
         }
+        
 
+        // A method to stop the arrow completely upon collision.
         private void Freeze(Collision collision)
         {
             gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;

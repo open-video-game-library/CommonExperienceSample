@@ -9,8 +9,6 @@ namespace Archery
     {
         [SerializeField] private ArrowManager _arrowManager;
 
-        private Vector3 _initialHandPosition;
-
         private Vector3 _initialStringPosition;
 
 
@@ -21,7 +19,7 @@ namespace Archery
 
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             if (_arrowManager.DrawBowHand == OVRInput.Controller.RTouch)
             {

@@ -8,22 +8,13 @@ using UnityEngine.UI;
 
 namespace Archery
 {
-    public enum Hand
-    {
-        InValid,
-        Left,
-        Right,
-    }
-    
     public class ArrowManager : MonoBehaviour
     {
         private bool Drawable;
         
         [SerializeField] private GameObject _arrowPrefab;
 
-        public GameObject ArrowInstance;
-
-        [SerializeField] private float _standardArrowForce;
+        [HideInInspector] public GameObject ArrowInstance;
 
         private Vector3 _initialPosition;
 
@@ -32,14 +23,16 @@ namespace Archery
         [SerializeField] private SoundManager _soundManager;
 
         [SerializeField] private HapticManager _hapticManager;
+        
+        public OVRInput.Controller DrawBowHand;
+        
+        
         /// <summary>
         /// Assign to this variable the tension obtained from the user's movements, etc. By default, the distance between the left and right controllers is assigned.
         /// ユーザの動きなどから取得した張力をこの変数に割り当ててください.標準では左右のコントローラ間の距離を割り当てています。
         /// </summary>
-        [Range(0, 2)] public float _tension = 1;
-
+        private  float _tension = 1;
         
-        public OVRInput.Controller DrawBowHand;
 
         // Start is called before the first frame update
         private void Start()
@@ -159,6 +152,8 @@ namespace Archery
                 OVRInput.SetControllerVibration(0, 0);
             }
 
+            
+            
             /// <summary>
             /// 左右のコントローラの距離から張力を定義
             /// Tension is defined from the distance between the left and right controllers
@@ -174,6 +169,8 @@ namespace Archery
                 return _tension;
             }
 
+            
+            
             private void ReleaseDetection(OVRInput.Controller Controller)
             {
                 var currentPosition =
