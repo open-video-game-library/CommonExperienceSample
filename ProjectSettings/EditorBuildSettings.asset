@@ -21,11 +21,14 @@ EditorBuildSettings:
     path: Assets/CoExSamples/Applications/Gun/Scenes/GunGame.unity
     guid: 04ce066aea1764986a2125091644bf81
   - enabled: 0
-    path: Assets/CoExSamples/Applications/Archery/Scenes/InstantiateTest.unity
-    guid: 9175d1efeb2e64b28aba754679f516e9
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/CoExSamples/Applications/Archery/Scenes/Archery.unity
     guid: ea234b0d31aea46939570c8a75220a16
+  - enabled: 1
+    path: Assets/CoExSamples/Applications/Fishing/Scenes/Fishing.unity
+    guid: 5dd73d5efc9f740189d44c341a885dd2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c7d4fd90a015c4ba59c4d9bad913a31c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4d14da610684c40af9bb97bf29c8323d, type: 2}
