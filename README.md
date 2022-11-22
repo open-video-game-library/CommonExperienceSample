@@ -64,7 +64,7 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 5. If you wish to use the Common Experience sample in your research, please cite the following article within your own paper.
 
-- [Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays]([https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf](https://dl.acm.org/doi/10.1145/3562939.3565649))
+- [Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays(https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf](https://dl.acm.org/doi/10.1145/3562939.3565649)
 
 ### BibTeX
 ```
