@@ -14,6 +14,10 @@ TagManager:
   - LeftHand
   - RightHand
   - Bow
+  - TaskTarget
+  - Target_Practice
+  - Target_Task
+  - Gun
   layers:
   - Default
   - TransparentFX
