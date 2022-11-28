@@ -53,36 +53,13 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 
 ## Licence
-Use of the Common Experience sample is permitted under the MIT License and our original license.
-
-- **MIT License**
-  
-  Copyright (c) 2022 Open Video Game Library
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.
+The license to use the common experience sample is the [MIT license](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md) and the original license. In order for other researchers to reproduce your experimental environment, please comply with the original license as well.
   
 - **Original License**
   
-  `English`  
     When using software provided by the Open Video Game Library with modifications, the source code must be disclosed. In addition, when using software provided by the   Open Video Game Library for research, you must cite the article described in the README file included with the software you are using.
 
-### BibTeX
+## BibTeX
 ```
 @inproceedings{10.1145/3562939.3565649,
 author = {Oka, Takuya and Morimoto, Kosuke and Yanase, Yohei and Watanabe, Keita},
