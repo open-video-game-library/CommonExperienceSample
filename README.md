@@ -61,6 +61,7 @@ The license to use the common experience sample is the [MIT license](https://git
 
 ### Citation
 Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
+
 [Go to publication page](https://dl.acm.org/doi/10.1145/3562939.3565649)
 
 ## BibTeX
