@@ -59,7 +59,7 @@ The license to use the common experience sample is the [MIT license](https://git
   
 When using software provided by the Open Video Game Library with modifications, the source code must be disclosed. In addition, when using software provided by the Open Video Game Library for research, you must cite the article described in the README file included with the software you are using.
 
-### Citation
+## Citation
 Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
 
 [Go to publication page](https://dl.acm.org/doi/10.1145/3562939.3565649)
