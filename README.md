@@ -55,9 +55,13 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ## Licence
 The license to use the common experience sample is the [MIT license](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md) and the original license. In order for other researchers to reproduce your experimental environment, please comply with the original license as well.
   
-- **Original License**
+### Original License
   
     When using software provided by the Open Video Game Library with modifications, the source code must be disclosed. In addition, when using software provided by the   Open Video Game Library for research, you must cite the article described in the README file included with the software you are using.
+
+### Citation
+Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
+[Go to publication page](https://dl.acm.org/doi/10.1145/3562939.3565649)
 
 ## BibTeX
 ```
