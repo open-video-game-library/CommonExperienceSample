@@ -55,7 +55,7 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ## Licence
 Use of the Common Experience sample is permitted under the MIT License and our original license.
 
-- ***MIT License**
+- **MIT License**
   
   Copyright (c) 2022 Open Video Game Library
 
