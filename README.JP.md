@@ -51,29 +51,21 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ```
 
 
+
 ## Licence
+共通体験サンプルの使用許諾は、[MITライセンス](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md)およびオリジナルライセンスとなります。オリジナルライセンスは、他の研究者があなたの実験環境を再現するため設定しています。
+  
+### Original License
+  
+オープンビデオゲームライブラリが提供するソフトウェアを改変して使用する場合は、ソースコードを公開する必要があります。また、オープンビデオゲームライブラリで提供されているソフトウェアを研究用に使用する場合は、使用するソフトウェアに同梱されているREADMEファイルに記述されている論文を引用する必要があります。
 
-1. 共通体験サンプルは無料でご利用できます。
+## 引用
+Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
 
-2. 営利目的・公序良俗に反する目的でない限り、研究目的での利用を含め、あらゆる用途で利用できます。
+[論文のページに行く](https://dl.acm.org/doi/10.1145/3562939.3565649)
 
-3. ダウンロードしたデータを改変し、ご利用いただいても構いません。
+### BibTeX
 
-4. 利用報告をする必要はありませんが、改変したデータを二次配布する場合を含め、共通体験サンプルを利用した場合は、その旨を明記して下さい。
-
-5. 共通体験サンプルを研究で利用する場合は、ご自身の論文内で以下の論文を引用して下さい。
-
-- [触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討](https://conference.vrsj.org/ac2022/program/doc/1F1-5.pdf)
-```
-@conference{岡:2022, 
-   author	 = "拓也,岡 and 浩輔,森本 and 洋平,簗瀬 and 恵太,渡邊",
-   title	 = "触覚ディスプレイの比較評価を目的とした共通体験サンプルの試作と検討"
-   booktitle	 = "第27回日本バーチャルリアリティ学会大会論文集",
-   institution	= "明治大学大学院先端数理科学研究科先端メディアサイエンス専攻, 明治大学総合数理学部先端メディアサイエンス学科, ユニティ・テクノロジーズ・ジャパン株式会社, 明治大学総合数理学部先端メディアサイエンス学科",
-   year		 = "2022",
-   month	 = "sep"
-}
-```
 
 ## Note
 
