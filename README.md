@@ -64,7 +64,7 @@ Common Experience Sample 1.0: Developing a sample for comparing the characterist
 
 [Go to publication page](https://dl.acm.org/doi/10.1145/3562939.3565649)
 
-## BibTeX
+### BibTeX
 ```
 @inproceedings{10.1145/3562939.3565649,
 author = {Oka, Takuya and Morimoto, Kosuke and Yanase, Yohei and Watanabe, Keita},
