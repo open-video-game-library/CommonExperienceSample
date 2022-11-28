@@ -53,18 +53,34 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 
 
 ## Licence
+Use of the Common Experience sample is permitted under the MIT License and our original license.
 
-1. Common experience samples are available free of charge.
+- ***MIT License**
+  
+  Copyright (c) 2022 Open Video Game Library
 
-2. You may use the library for any purpose, including research purposes, as long as it is not for commercial purposes or against public order and morals.
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
 
-3. You may modify and use the downloaded data.
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
 
-4. You are not required to report the use of the data, but please indicate if you have used the common experience sample, including secondary distribution of modified data.
-
-5. If you wish to use the Common Experience sample in your research, please cite the following article within your own paper.
-
-- [Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays](https://dl.acm.org/doi/10.1145/3562939.3565649)
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  
+- **Original License**
+  
+  `English`  
+    When using software provided by the Open Video Game Library with modifications, the source code must be disclosed. In addition, when using software provided by the   Open Video Game Library for research, you must cite the article described in the README file included with the software you are using.
 
 ### BibTeX
 ```
