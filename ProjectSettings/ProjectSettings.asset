@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CoexSample_Archery
+  productName: CoexSample_GunGame_ver2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,9 +135,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: -2598077759223010256, guid: 4d14da610684c40af9bb97bf29c8323d, type: 2}
-  - {fileID: 11400000, guid: c7d4fd90a015c4ba59c4d9bad913a31c, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -157,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.CoexSample_Archery
+    Android: com.DefaultCompany.CoexSample_GunGame_ver2
     Standalone: com.DefaultCompany.CoExperimentSample
   buildNumber:
     Standalone: 0
