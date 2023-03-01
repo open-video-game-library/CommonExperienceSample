@@ -6,8 +6,8 @@
 
 Common experience sample is an Open Source Software (OSS) for evaluating tactile displays. You can adjust and experience basic actions such as grasping and holding the display. For each of the six dimensional object characteristics (texture, hardness, temperature, weight, shape, and motion) that the tactile display provides feedback on, samples that are frequently used in existing research can be used. The common experience sample is intended to be a standard evaluation stimulus for tactile displays and to promote comparison between displays.
  
-![Videotogif](https://user-images.githubusercontent.com/71160720/222032283-7cf075cc-3db1-4be7-9048-83156a324f94.gif)
 
+![CES](https://user-images.githubusercontent.com/71160720/222032948-b233500c-ef16-4db4-8952-7c283303d769.gif)
 
 
 [Click here for a detailed demo video.](https://www.youtube.com/watch?v=3QshPIVFACQ)
