@@ -89,5 +89,5 @@ series = {VRST '22}
 
 ## Contact
 
-[If you have any comments, requests or questions, please contact us here.](https://openvideogame.cc/contact)
+If you have any comments, requests or questions, please contact us [here](https://openvideogame.cc/contact).
 
