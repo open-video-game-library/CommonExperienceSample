@@ -88,4 +88,4 @@ series = {VRST '22}
 
 ## Contact
 
-意見や要望、質問などがありましたら、[こちら](https://open-video-game-library.github.io/info/contact/)からお問い合わせ下さい。
+意見や要望、質問などがありましたら、[こちら](https://openvideogame.cc/contact)からお問い合わせ下さい。
