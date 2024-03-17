@@ -55,12 +55,9 @@ git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ## Licence
 共通体験サンプルの使用許諾は、[MITライセンス](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md)およびオリジナルライセンスとなります。オリジナルライセンスは、他の研究者があなたの実験環境を再現するため設定しています。
   
-### Original License
-  
-研究目的で、オープンビデオゲームライブラリが提供するソフトウェアを改変して使用する場合は、ソフトウェアのバージョンとそのソースコードを公開し、使用するソフトウェアに同梱されているREADMEファイルに記述されている論文を引用する必要があります。
-
 
 ## 引用
+研究利用する場合、他の研究者もこのゲームにアクセスできるように以下の論文を引用することを推奨します。
 Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
 
 [論文のページに行く](https://dl.acm.org/doi/10.1145/3562939.3565649)
