@@ -52,38 +52,11 @@ Please clone this repository to your local environment using the following comma
 git clone git@github.com:open-video-game-library/CoExperienceSamples.git
 ```
 
-
 ## Licence
-The license to use the common experience sample is the [MIT license](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md) and the original license. In order for other researchers to reproduce your experimental environment, please comply with the original license as well.
+This content is licensed under the [MIT license](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/LICENSE.md).
    
-
-## Citation
-For research use, we recommend that you cite the following article so that other researchers can also access this game.
-
-Common Experience Sample 1.0: Developing a sample for comparing the characteristics of haptic displays
-
-[Go to publication page](https://dl.acm.org/doi/10.1145/3562939.3565649)
-
-### BibTeX
-```
-@inproceedings{10.1145/3562939.3565649,
-author = {Oka, Takuya and Morimoto, Kosuke and Yanase, Yohei and Watanabe, Keita},
-title = {Common Experience Sample 1.0: Developing a Sample for Comparing the Characteristics of Haptic Displays},
-year = {2022},
-isbn = {9781450398893},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3562939.3565649},
-doi = {10.1145/3562939.3565649},
-abstract = {Many haptic displays that provide haptic feedback to users have been proposed;however, differences in experimental environments make comparisons of displays difficult. Therefore, we categorized the characteristics of feedback based on existing research, and developed a common experience sample that includes virtual objects necessary for the expression of each characteristic. Additionally, we will study the methods of evaluating displays using the proposed sample, and aim at comparative evaluation of multiple displays.},
-booktitle = {28th ACM Symposium on Virtual Reality Software and Technology},
-articleno = {47},
-numpages = {2},
-keywords = {haptic, virtual reality, crossmodal, sample, evaluation, multimodal},
-location = {Tsukuba, Japan},
-series = {VRST '22}
-}
-```
+## Use in Research
+[Recommendations for research use of this content](https://github.com/open-video-game-library/CommonExperienceSample/blob/main/RESEARCH_USE.md)
 
 ## Contact
 
